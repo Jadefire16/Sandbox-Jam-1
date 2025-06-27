@@ -1,0 +1,146 @@
+{
+  "__guid": "74b7a3a4-3ebd-4673-a825-928a623aec48",
+  "GameObjects": [
+    {
+      "__guid": "10cd3705-b1af-4d13-bc3d-4745c83e4c17",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "GameManager",
+      "Position": "149.3263,149.3264,-211.1794",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "GameManager",
+          "__guid": "7d793355-6ccc-44cb-89ce-b3271d6d3e95",
+          "__enabled": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "91cd0503-c613-45eb-91d4-685e5357f633",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Load",
+      "Position": "519.9473,743.5919,158.2174",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": []
+    },
+    {
+      "__guid": "501c601d-7101-4684-9861-4be03dbd853f",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "SceneManager",
+      "Position": "519.9473,743.5919,158.2174",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "SceneManager",
+          "__guid": "a63dc092-43cc-4c4f-9c9a-b6e2bd23a135",
+          "__enabled": true,
+          "ArenaScenes": [
+            "scenes/scn_testarena.scene"
+          ],
+          "MainMenuScene": "scenes/scn_mainmenu.scene",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "c1158558-a453-4c5d-99f9-a637d2e98eb9",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Scene Information",
+      "Position": "519.9473,743.5919,158.2174",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SceneInformation",
+          "__guid": "af468f29-7558-42e7-9ef7-ea27734edd85",
+          "__enabled": true,
+          "Author": null,
+          "Changes": "",
+          "Description": "",
+          "Group": null,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "SceneTags": "Init",
+          "Title": "Initialization",
+          "Version": null
+        }
+      ],
+      "Children": []
+    }
+  ],
+  "SceneProperties": {
+    "NetworkInterpolation": true,
+    "TimeScale": 1,
+    "WantsSystemScene": true,
+    "Metadata": {
+      "Title": "Initialization",
+      "Tags": "Init"
+    },
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "ResourceVersion": 3,
+  "Title": "Initialization",
+  "Description": null,
+  "__references": [],
+  "__version": 3
+}

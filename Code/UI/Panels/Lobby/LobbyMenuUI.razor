@@ -32,8 +32,8 @@
             Log.Warning("LobbyMenu reference is missing.");
             return;
         }
-
-        LobbyMenu.HostLobby();
+        GameManager.Instance.InitializeNetworking();
+        SceneManager.Instance.LoadArenaScene();
     }
 
     private void OnJoinLobby()
